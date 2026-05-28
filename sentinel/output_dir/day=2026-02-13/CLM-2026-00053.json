@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00053",
+  "policy_id": "POL-50018",
+  "customer_id": "CUS-100016",
+  "incident_date": "2026-02-13",
+  "report_date": "2026-02-13",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Theft",
+  "description": "Vehicle stolen from driveway overnight.",
+  "status": "Closed",
+  "claim_amount": 26727.23,
+  "approved_amount": 18531.54,
+  "created_at": "2026-02-13T15:47:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-02-13T15:47:00Z",
+      "adjuster_id": "ADJ-009",
+      "notes": "Vehicle stolen from driveway overnight."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-02-14T02:47:00Z",
+      "adjuster_id": "ADJ-009",
+      "reserve_amount": 24197.12
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-03-04T15:47:00Z",
+      "adjuster_id": "ADJ-009",
+      "payment_amount": 18031.54,
+      "payment_type": "Theft_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-03-18T15:47:00Z",
+      "adjuster_id": "ADJ-009",
+      "final_amount": 18031.54
+    }
+  ]
+}

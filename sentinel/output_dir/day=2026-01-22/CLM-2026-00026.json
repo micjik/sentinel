@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00026",
+  "policy_id": "POL-50030",
+  "customer_id": "CUS-100025",
+  "incident_date": "2026-01-22",
+  "report_date": "2026-01-24",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Collision",
+  "description": "Minor parking lot collision; minimal damage.",
+  "status": "Closed",
+  "claim_amount": 14528.29,
+  "approved_amount": 12199.53,
+  "created_at": "2026-01-24T13:40:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-24T13:40:00Z",
+      "adjuster_id": "ADJ-007",
+      "notes": "Rear-end collision at intersection."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-24T14:40:00Z",
+      "adjuster_id": "ADJ-007",
+      "reserve_amount": 17180.76
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-01-30T13:40:00Z",
+      "adjuster_id": "ADJ-007",
+      "payment_amount": 11699.53,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-02-19T13:40:00Z",
+      "adjuster_id": "ADJ-007",
+      "final_amount": 11699.53
+    }
+  ]
+}

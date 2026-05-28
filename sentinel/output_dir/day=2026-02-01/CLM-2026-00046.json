@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00046",
+  "policy_id": "POL-50291",
+  "customer_id": "CUS-100254",
+  "incident_date": "2026-02-01",
+  "report_date": "2026-02-01",
+  "incident_location": {
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215"
+  },
+  "incident_type": "Collision",
+  "description": "Hydroplaning incident; vehicle struck guardrail.",
+  "status": "Closed",
+  "claim_amount": 14602.06,
+  "approved_amount": 11483.88,
+  "created_at": "2026-02-01T18:24:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-02-01T18:24:00Z",
+      "adjuster_id": "ADJ-010",
+      "notes": "Single-vehicle accident on slick roads during heavy rain."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-02-02T06:24:00Z",
+      "adjuster_id": "ADJ-010",
+      "reserve_amount": 17679.69
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-03-01T18:24:00Z",
+      "adjuster_id": "ADJ-010",
+      "payment_amount": 10983.88,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-03-04T18:24:00Z",
+      "adjuster_id": "ADJ-010",
+      "final_amount": 10983.88
+    }
+  ]
+}

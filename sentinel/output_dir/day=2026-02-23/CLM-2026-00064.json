@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00064",
+  "policy_id": "POL-50121",
+  "customer_id": "CUS-100102",
+  "incident_date": "2026-02-23",
+  "report_date": "2026-02-25",
+  "incident_location": {
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215"
+  },
+  "incident_type": "Comprehensive",
+  "description": "Wind-driven debris damaged windshield and side panels.",
+  "status": "Closed",
+  "claim_amount": 3140.73,
+  "approved_amount": 2844.99,
+  "created_at": "2026-02-25T08:19:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-02-25T08:19:00Z",
+      "adjuster_id": "ADJ-009",
+      "notes": "Wind-driven debris damaged windshield and side panels."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-02-25T19:19:00Z",
+      "adjuster_id": "ADJ-009",
+      "reserve_amount": 3252.29
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-03-03T08:19:00Z",
+      "adjuster_id": "ADJ-009",
+      "payment_amount": 2344.99,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-03-23T08:19:00Z",
+      "adjuster_id": "ADJ-009",
+      "final_amount": 2344.99
+    }
+  ]
+}

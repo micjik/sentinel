@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-2026-00065",
+  "policy_id": "POL-50423",
+  "customer_id": "CUS-100367",
+  "incident_date": "2026-02-23",
+  "report_date": "2026-02-23",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Comprehensive",
+  "description": "Wind-driven debris damaged windshield and side panels.",
+  "status": "Open",
+  "claim_amount": 4549.7,
+  "approved_amount": null,
+  "created_at": "2026-02-23T19:39:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-02-23T19:39:00Z",
+      "adjuster_id": "ADJ-003",
+      "notes": "Tree branch fell on parked vehicle during storm."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-02-24T05:39:00Z",
+      "adjuster_id": "ADJ-003",
+      "reserve_amount": 4330.2
+    }
+  ]
+}

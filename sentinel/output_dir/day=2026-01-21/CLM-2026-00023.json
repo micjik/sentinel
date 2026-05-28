@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-2026-00023",
+  "policy_id": "POL-50255",
+  "customer_id": "CUS-100224",
+  "incident_date": "2026-01-21",
+  "report_date": "2026-01-21",
+  "incident_location": {
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215"
+  },
+  "incident_type": "Comprehensive",
+  "description": "Hail damage assessed at multiple points on vehicle.",
+  "status": "Open",
+  "claim_amount": 4725.69,
+  "approved_amount": null,
+  "created_at": "2026-01-21T11:48:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-21T11:48:00Z",
+      "adjuster_id": "ADJ-007",
+      "notes": "Flooding damaged interior; customer unable to start vehicle."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-21T23:48:00Z",
+      "adjuster_id": "ADJ-007",
+      "reserve_amount": 4055.2
+    }
+  ]
+}

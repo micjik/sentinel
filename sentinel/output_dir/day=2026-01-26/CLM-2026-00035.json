@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00035",
+  "policy_id": "POL-50520",
+  "customer_id": "CUS-100448",
+  "incident_date": "2026-01-26",
+  "report_date": "2026-01-29",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Collision",
+  "description": "Single-vehicle accident on slick roads during heavy rain.",
+  "status": "Closed",
+  "claim_amount": 8840.28,
+  "approved_amount": 8384.28,
+  "created_at": "2026-01-29T08:56:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-29T08:56:00Z",
+      "adjuster_id": "ADJ-008",
+      "notes": "Multi-vehicle collision in low-visibility storm conditions."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-29T14:56:00Z",
+      "adjuster_id": "ADJ-008",
+      "reserve_amount": 10337.75
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-02-22T08:56:00Z",
+      "adjuster_id": "ADJ-008",
+      "payment_amount": 7884.28,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-03-08T08:56:00Z",
+      "adjuster_id": "ADJ-008",
+      "final_amount": 7884.28
+    }
+  ]
+}

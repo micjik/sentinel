@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00010",
+  "policy_id": "POL-50374",
+  "customer_id": "CUS-100323",
+  "incident_date": "2026-01-14",
+  "report_date": "2026-01-14",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Comprehensive",
+  "description": "Tree branch fell on parked vehicle during storm.",
+  "status": "Closed",
+  "claim_amount": 1948.88,
+  "approved_amount": 1697.06,
+  "created_at": "2026-01-14T09:52:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-14T09:52:00Z",
+      "adjuster_id": "ADJ-005",
+      "notes": "Tree branch fell on parked vehicle during storm."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-14T14:52:00Z",
+      "adjuster_id": "ADJ-005",
+      "reserve_amount": 1828.75
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-01-29T09:52:00Z",
+      "adjuster_id": "ADJ-005",
+      "payment_amount": 1197.06,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-02-13T09:52:00Z",
+      "adjuster_id": "ADJ-005",
+      "final_amount": 1197.06
+    }
+  ]
+}

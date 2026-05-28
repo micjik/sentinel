@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00002",
+  "policy_id": "POL-50360",
+  "customer_id": "CUS-100309",
+  "incident_date": "2026-01-08",
+  "report_date": "2026-01-08",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Collision",
+  "description": "Multi-vehicle collision in low-visibility storm conditions.",
+  "status": "Closed",
+  "claim_amount": 6875.39,
+  "approved_amount": 6028.42,
+  "created_at": "2026-01-08T17:29:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-08T17:29:00Z",
+      "adjuster_id": "ADJ-008",
+      "notes": "Hydroplaning incident; vehicle struck guardrail."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-09T03:29:00Z",
+      "adjuster_id": "ADJ-008",
+      "reserve_amount": 8249.76
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-01-15T17:29:00Z",
+      "adjuster_id": "ADJ-008",
+      "payment_amount": 5528.42,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-01-17T17:29:00Z",
+      "adjuster_id": "ADJ-008",
+      "final_amount": 5528.42
+    }
+  ]
+}

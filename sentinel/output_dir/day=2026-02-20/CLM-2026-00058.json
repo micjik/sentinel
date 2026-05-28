@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00058",
+  "policy_id": "POL-50188",
+  "customer_id": "CUS-100163",
+  "incident_date": "2026-02-20",
+  "report_date": "2026-02-23",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Comprehensive",
+  "description": "Hail damage assessed at multiple points on vehicle.",
+  "status": "Closed",
+  "claim_amount": 7418.56,
+  "approved_amount": 7087.83,
+  "created_at": "2026-02-23T13:10:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-02-23T13:10:00Z",
+      "adjuster_id": "ADJ-008",
+      "notes": "Hail damage assessed at multiple points on vehicle."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-02-24T01:10:00Z",
+      "adjuster_id": "ADJ-008",
+      "reserve_amount": 7173.16
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-03-17T13:10:00Z",
+      "adjuster_id": "ADJ-008",
+      "payment_amount": 6587.83,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-03-20T13:10:00Z",
+      "adjuster_id": "ADJ-008",
+      "final_amount": 6587.83
+    }
+  ]
+}

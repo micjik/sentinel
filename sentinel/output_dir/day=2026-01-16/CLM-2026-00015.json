@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-2026-00015",
+  "policy_id": "POL-50423",
+  "customer_id": "CUS-100367",
+  "incident_date": "2026-01-16",
+  "report_date": "2026-01-18",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Collision",
+  "description": "Insured changed lanes and collided with adjacent vehicle.",
+  "status": "Open",
+  "claim_amount": 14911.65,
+  "approved_amount": null,
+  "created_at": "2026-01-18T11:54:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-18T11:54:00Z",
+      "adjuster_id": "ADJ-008",
+      "notes": "Insured backed into another vehicle while reversing."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-18T23:54:00Z",
+      "adjuster_id": "ADJ-008",
+      "reserve_amount": 14098.83
+    }
+  ]
+}

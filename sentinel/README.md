@@ -25,16 +25,21 @@ https://www.geeksforgeeks.org/postgresql/postgresql-connecting-to-the-database-u
 ### Challenges
 
 - `had couple of issues while connecting my python script to amazon s3 like the permission was not set properly so the accesskey and secret key could not be read `
-- ``
+- `difficulty using the google drive api, so I deployed in using the gdown to download the files from google drive`
 
 
 ### My Process
  - `policy admin extractor connect to the PostgreSQL database and`
    `pulls customers, agents, policies and coverage data from the database to amazon simple storage system`
+ - `use gdown to download the files from google drive`
+ - 
+
+
+
 
 
 
 ### SERVICES
-
+https://thepythoncode.com/article/using-google-drive--api-in-python#Download_Files
 
 ### Other Developers

@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-2026-00020",
+  "policy_id": "POL-50573",
+  "customer_id": "CUS-100493",
+  "incident_date": "2026-01-19",
+  "report_date": "2026-01-19",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Comprehensive",
+  "description": "Flooding damaged interior; customer unable to start vehicle.",
+  "status": "Open",
+  "claim_amount": 6339.12,
+  "approved_amount": null,
+  "created_at": "2026-01-19T08:51:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-19T08:51:00Z",
+      "adjuster_id": "ADJ-008",
+      "notes": "Tree branch fell on parked vehicle during storm."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-19T09:51:00Z",
+      "adjuster_id": "ADJ-008",
+      "reserve_amount": 5504.77
+    }
+  ]
+}

@@ -69,8 +69,3 @@ for name, df in data_source.items():
         
 
 
-#QUERY = "SELECT * FROM customers"
-#df = pd.read_sql(QUERY, conn)
-
-#cur = conn.cursor()
-#conn.close()

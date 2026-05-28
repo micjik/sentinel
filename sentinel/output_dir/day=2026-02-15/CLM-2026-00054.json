@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-2026-00054",
+  "policy_id": "POL-50088",
+  "customer_id": "CUS-100074",
+  "incident_date": "2026-02-15",
+  "report_date": "2026-02-15",
+  "incident_location": {
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215"
+  },
+  "incident_type": "Liability",
+  "description": "Insured at-fault; third party seeking damages.",
+  "status": "Open",
+  "claim_amount": 15715.58,
+  "approved_amount": null,
+  "created_at": "2026-02-15T09:59:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-02-15T09:59:00Z",
+      "adjuster_id": "ADJ-009",
+      "notes": "Liability claim filed by other party."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-02-15T18:59:00Z",
+      "adjuster_id": "ADJ-009",
+      "reserve_amount": 16918.37
+    }
+  ]
+}

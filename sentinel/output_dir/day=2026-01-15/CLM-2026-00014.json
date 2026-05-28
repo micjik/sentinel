@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00014",
+  "policy_id": "POL-50545",
+  "customer_id": "CUS-100469",
+  "incident_date": "2026-01-15",
+  "report_date": "2026-01-18",
+  "incident_location": {
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60601"
+  },
+  "incident_type": "Collision",
+  "description": "Insured backed into another vehicle while reversing.",
+  "status": "Closed",
+  "claim_amount": 5404.69,
+  "approved_amount": 4637.94,
+  "created_at": "2026-01-18T10:28:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-18T10:28:00Z",
+      "adjuster_id": "ADJ-007",
+      "notes": "Insured changed lanes and collided with adjacent vehicle."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-18T13:28:00Z",
+      "adjuster_id": "ADJ-007",
+      "reserve_amount": 5841.52
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-01-23T10:28:00Z",
+      "adjuster_id": "ADJ-007",
+      "payment_amount": 4137.94,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-01-28T10:28:00Z",
+      "adjuster_id": "ADJ-007",
+      "final_amount": 4137.94
+    }
+  ]
+}

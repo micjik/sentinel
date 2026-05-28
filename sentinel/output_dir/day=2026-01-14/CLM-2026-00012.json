@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-2026-00012",
+  "policy_id": "POL-50554",
+  "customer_id": "CUS-100476",
+  "incident_date": "2026-01-14",
+  "report_date": "2026-01-15",
+  "incident_location": {
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60601"
+  },
+  "incident_type": "Collision",
+  "description": "Single-vehicle accident on slick roads during heavy rain.",
+  "status": "Open",
+  "claim_amount": 14476.74,
+  "approved_amount": null,
+  "created_at": "2026-01-15T17:07:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-15T17:07:00Z",
+      "adjuster_id": "ADJ-003",
+      "notes": "Hydroplaning incident; vehicle struck guardrail."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-15T21:07:00Z",
+      "adjuster_id": "ADJ-003",
+      "reserve_amount": 15019.53
+    }
+  ]
+}

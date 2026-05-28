@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLM-2026-00033",
+  "policy_id": "POL-50256",
+  "customer_id": "CUS-100225",
+  "incident_date": "2026-01-24",
+  "report_date": "2026-01-26",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Liability",
+  "description": "Liability claim filed by other party.",
+  "status": "Open",
+  "claim_amount": 4029.46,
+  "approved_amount": null,
+  "created_at": "2026-01-26T08:14:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-26T08:14:00Z",
+      "adjuster_id": "ADJ-005",
+      "notes": "Insured at-fault; third party seeking damages."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-26T17:14:00Z",
+      "adjuster_id": "ADJ-005",
+      "reserve_amount": 4378.36
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00031",
+  "policy_id": "POL-50186",
+  "customer_id": "CUS-100161",
+  "incident_date": "2026-01-23",
+  "report_date": "2026-01-26",
+  "incident_location": {
+    "city": "Columbus",
+    "state": "OH",
+    "zip": "43215"
+  },
+  "incident_type": "Collision",
+  "description": "Insured changed lanes and collided with adjacent vehicle.",
+  "status": "Closed",
+  "claim_amount": 10315.8,
+  "approved_amount": 9216.09,
+  "created_at": "2026-01-26T08:44:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-26T08:44:00Z",
+      "adjuster_id": "ADJ-009",
+      "notes": "Insured backed into another vehicle while reversing."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-26T15:44:00Z",
+      "adjuster_id": "ADJ-009",
+      "reserve_amount": 10316.72
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-02-09T08:44:00Z",
+      "adjuster_id": "ADJ-009",
+      "payment_amount": 8716.09,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-03-06T08:44:00Z",
+      "adjuster_id": "ADJ-009",
+      "final_amount": 8716.09
+    }
+  ]
+}

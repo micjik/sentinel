@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00006",
+  "policy_id": "POL-50329",
+  "customer_id": "CUS-100283",
+  "incident_date": "2026-01-09",
+  "report_date": "2026-01-11",
+  "incident_location": {
+    "city": "Indianapolis",
+    "state": "IN",
+    "zip": "46204"
+  },
+  "incident_type": "Theft",
+  "description": "Catalytic converter stolen from parked vehicle.",
+  "status": "Closed",
+  "claim_amount": 23667.92,
+  "approved_amount": 21880.9,
+  "created_at": "2026-01-11T08:22:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-11T08:22:00Z",
+      "adjuster_id": "ADJ-003",
+      "notes": "Items stolen from vehicle; window broken."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-11T19:22:00Z",
+      "adjuster_id": "ADJ-003",
+      "reserve_amount": 26505.79
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-01-31T08:22:00Z",
+      "adjuster_id": "ADJ-003",
+      "payment_amount": 21380.9,
+      "payment_type": "Theft_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-02-24T08:22:00Z",
+      "adjuster_id": "ADJ-003",
+      "final_amount": 21380.9
+    }
+  ]
+}

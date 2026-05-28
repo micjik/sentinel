@@ -1,0 +1,45 @@
+{
+  "claim_id": "CLM-2026-00021",
+  "policy_id": "POL-50012",
+  "customer_id": "CUS-100011",
+  "incident_date": "2026-01-19",
+  "report_date": "2026-01-21",
+  "incident_location": {
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60601"
+  },
+  "incident_type": "Collision",
+  "description": "Hydroplaning incident; vehicle struck guardrail.",
+  "status": "Closed",
+  "claim_amount": 7012.39,
+  "approved_amount": 5701.16,
+  "created_at": "2026-01-21T15:29:00Z",
+  "events": [
+    {
+      "event_type": "FNOL",
+      "timestamp": "2026-01-21T15:29:00Z",
+      "adjuster_id": "ADJ-006",
+      "notes": "Hydroplaning incident; vehicle struck guardrail."
+    },
+    {
+      "event_type": "Reserve_Set",
+      "timestamp": "2026-01-21T19:29:00Z",
+      "adjuster_id": "ADJ-006",
+      "reserve_amount": 7521.64
+    },
+    {
+      "event_type": "Payment_Issued",
+      "timestamp": "2026-02-15T15:29:00Z",
+      "adjuster_id": "ADJ-006",
+      "payment_amount": 5201.16,
+      "payment_type": "Repair_Settlement"
+    },
+    {
+      "event_type": "Closure",
+      "timestamp": "2026-03-05T15:29:00Z",
+      "adjuster_id": "ADJ-006",
+      "final_amount": 5201.16
+    }
+  ]
+}
