@@ -55,17 +55,25 @@ data_source = {
     'policies' :policies
 }
 
+# LOOP 1 - upload to S3
 for name, df in data_source.items():
-        wr.s3.to_parquet(
-            df = df,
-            path = f"s3://{bucket}/source=policy_admin/table={name}/day={today}/{name}.parquet",
-            index = False,
-            mode = 'overwrite',
-            dataset = True,
-            boto3_session = session
-        )
-        
-    
-        
+    wr.s3.to_parquet(
+        df=df,
+        path=f"s3://{bucket}/source=policy_admin/table={name}/day={today}.parquet",
+        dataset=True,
+        boto3_session=session
+    )
+    print(f"Uploaded {name}: {df.shape}")
 
+
+# LOOP 2 - read back and verify nulls
+for name in data_source.keys():
+    df_check = wr.s3.read_parquet(
+        path=f"s3://{bucket}/source=policy_admin/table={name}/day={today}.parquet",
+        dataset=True,
+        boto3_session=session
+    )
+    print(f"\n--- {name} ---")
+    print(f"Shape: {df_check.shape}")
+    print(f"Nulls:\n{df_check.isnull().sum()}")
 

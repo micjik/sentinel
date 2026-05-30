@@ -31,6 +31,7 @@ for day_folder in os.listdir('./output_dir'):
         continue
 
     dfs = []
+    expected_columns = ['claim_id', 'policy_id', 'claim_amount', 'claim_date', 'claim_status', 'source']
     for f in json_files:
         with open(f) as file:
             data = json.load(file)
