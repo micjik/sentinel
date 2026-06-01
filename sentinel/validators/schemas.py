@@ -63,7 +63,7 @@ df_billing = dfs["billing"]
 
 # extract rows where payment_method is null
 null_payment = df_billing[df_billing['payment_method'].isnull()]
-clean_billing = df_billing[df_billing['payment_method'].notnull()]
+clean_billing = print(df_billing[df_billing['payment_method'].notnull()])
 
 print(f"Clean rows: {len(clean_billing)}")
 print(f"Null rows: {len(null_payment)}")
@@ -78,10 +78,28 @@ if len(null_payment) > 0:
     )
     print(f"Moved {len(null_payment)} null rows to quarantine")
 
+   # step 1 - delete old billing files
+wr.s3.delete_objects(
+    path=f"s3://{bucket}/source=billing/",
+    boto3_session=session
+)
+
+# step 2 - ensure consistent type before upload
+#df['transaction_date'] = pd.to_datetime(df['transaction_date'], format='%d/%m/%Y').dt.date.astype(str)
+
+# step 3 - re-upload cleanly
+#wr.s3.to_parquet(
+#    df=df,
+ #   path=f"s3://{bucket}/source=billing/",
+ #   dataset=True,
+ #   mode='overwrite',
+ #   boto3_session=session
+#)
+
 #print(dfs["billing"].isnull().sum())
 #print(dfs["weather"].isnull().sum())
 #print(f"\n--- policy_admin/{name} ---")
-#print(f"Shape: {dfs['policy_admin'][name].shape}")
+#(f"Shape: {dfs['policy_admin'][name].shape}")
 #print(f"Nulls:\n{dfs['policy_admin'][name].isnull().sum()}")
 
 
